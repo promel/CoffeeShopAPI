@@ -50,7 +50,7 @@ namespace CoffeeShopAPI.Controllers
             }
             _context.Purchases.Add(purchase); 
             await _context.SaveChangesAsync();
-            return Ok();
+            return Ok(Get());
         }
 
         // PUT api/values/5

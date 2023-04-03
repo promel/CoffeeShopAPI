@@ -9,6 +9,5 @@
 
         public int? UserId { get; set; }
         private User? User { get; set; }
-
     }
 }
